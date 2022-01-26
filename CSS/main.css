@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Tahoma";
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    height: 50px;
+    text-align: center;
+    font-size: x-small;
+}
+
+.nav-list li {
+    margin-left: 10px;
+}
+
+.top-nav {
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 4;
+}
+
+.nav-logo img {
+    width: 70px;
+    color: black;
+    fill: black;
+    filter: ;
+}
+
+.nav-icon-1 {
+    color: beige;
+}
+
+.nav-2-2 img {
+    width: 13px;
+}
+
+.nav-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.nav-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.nav-2-1 {
+    margin-right: 25px;
+}
+
+.nav-2-2 img {
+    margin-left: 13px;
+}

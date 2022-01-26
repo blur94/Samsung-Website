@@ -1,0 +1,25 @@
+.together {
+    height: 600px;
+    background-image: url(../images/index/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.mobile{
+    height: 500px;
+    text-align: center;
+    margin: 0 20px;
+    background-image: url(../images/index/Home_Galaxy-S21.jpg);
+    background-size: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.tv-av {
+    height: 500px;
+    text-align: center;
+    background-image: url(../images/index/TV_HOME.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
