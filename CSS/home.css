@@ -5,21 +5,191 @@
     background-position: center;
     background-repeat: no-repeat;
 }
-.mobile{
-    height: 500px;
+
+.together {
+    color: white;
+    position: relative;
+}
+
+.absolute-position {
+    position: absolute;
+    width: 60%;
+    height: 100px;
+    top: 30%;
+    left: 20%;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.absolute-position h2 {
+    margin-bottom: 12px;
+}
+
+.whiteroundbtn {
+    border: 1px solid white;
+    background-color: white;
+    height: 25px;
+    border-radius: 25px;
+    font-size: x-small;
+    width: 80px;
+}
+
+.blackroundbtn {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    height: 25px;
+    border-radius: 25px;
+    font-size: x-small;
+    width: 80px;
+}
+
+.mobile {
+    position: relative;
+    height: 620px;
     text-align: center;
     margin: 0 20px;
     background-image: url(../images/index/Home_Galaxy-S21.jpg);
-    background-size: 450px;
+    background-size: 611px;
     background-position: center;
     background-repeat: no-repeat;
 
 }
+
+.mobile-top {
+    position: absolute;
+    top: 7%;
+    left: 25.5%;
+    width: 45%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.mobile-bottom {
+    position: absolute;
+    top: 80%;
+    left: 43%;
+    text-align: center;
+}
+
+.mobile-bottom h2 {
+    margin: 4px 2px;
+}
+
+.mobile-bottom p {
+    margin: 4px 2px;
+    color: gray;
+    font-size: xx-small;
+}
+
 .tv-av {
-    height: 500px;
+    position: relative;
+    height: 700px;
     text-align: center;
     background-image: url(../images/index/TV_HOME.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.tv-av-top {
+    position: absolute;
+    top: 4%;
+    left: 25.5%;
+    width: 45%;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.tv-av-bottom {
+    position: absolute;
+    top: 81%;
+    left: 35%;
+    text-align: center;
+    color: white;
+}
+
+.underline-white {
+    text-decoration: underline;
+    color: white;
+}
+
+.underline-black {
+        text-decoration: underline;
+        color: black;
+}
+
+.tv-av-bottom a {
+    font-size: x-small;
+}
+
+.home-app {
+    position: relative;
+    height: 600px;
+    text-align: center;
+    background-image: url(../images/index/home_appliances.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 70px;
+}
+
+.home-app-top {
+    position: absolute;
+    top: 4%;
+    left: 25.5%;
+    width: 45%;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.home-app-bottom {
+    position: absolute;
+    top: 72%;
+    left: 41%;
+    text-align: center;
+    color: white;
+}
+
+.home-app-top ul {
+    font-size: small;
+}
+
+.home-app-top h2 {
+    margin-bottom: 7px;
+}
+
+.month-pick {
+    position: relative;
+    height: 600px;
+}
+
+.month-pick-top {
+    /* position: absolute; */
+    margin: 50px 570px 10px;
+    text-align: center;
+}
+
+.month-pick-middle {
+    /* flex: 50%; */
+    /* display: flex;
+    height: 400px;
+    justify-content: space-evenly; */
+}
+
+.col-1 {
+    /* background-image: url(../images/index/PCD_Galaxy-S21-FE.png); */
+    background-size: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: lightgrey;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    
+}
+
+.col-2 {
+    
 }
