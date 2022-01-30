@@ -305,6 +305,33 @@
     border-left: none;
 }
 
+.searchbox-bottom {
+    font-size: 12px;
+    margin: 15px 60px 15px 80px;
+    color: gray;
+}
+
+.productlist {
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    border-top: 1px solid rgb(247, 247, 247);
+    border-bottom: 1px solid rgb(247, 247, 247);
+}
+
+.productlist-1, .productlist-2, .productlist-3, .productlist-4 {
+    border-right: 1px solid rgb(247, 247, 247);
+    margin-left: 5px;
+    flex: 20%;
+}
+.productlist-5 {
+    flex: 20%;
+}
+
+.productlist-1 h3, .productlist-2 h3, .productlist-3 h3, .productlist-4 h3, .productlist-5 h3 {
+    margin: 0px;
+}
+
 .footer-1 {
     height: 10px;
     padding: 15px 0px 0px 15px;
